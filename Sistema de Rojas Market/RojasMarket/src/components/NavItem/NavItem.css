@@ -1,0 +1,22 @@
+.NavItemContainer {
+  width: 100%;
+  color: bisque;
+  height: 6vh;
+  border: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NavItemContainer .PMd:hover {
+  cursor: pointer;
+}
+.NavItemContainer:hover {
+  background-color: rgb(231, 36, 36);
+  color: bisque;
+  transition: 150ms;
+}
+
+.NavItemContainer .PMd{
+  margin: 0;
+
+}

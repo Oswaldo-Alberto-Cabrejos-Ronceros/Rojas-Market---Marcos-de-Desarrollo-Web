@@ -1,0 +1,87 @@
+.ModuleRegistrarseContainer{
+    /*background-color: brown;*/
+    width: 100%;
+    height: 100%;
+    min-height: 90vh;
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ModuleRegistrarseContainer h2{
+color: black;
+padding: 0;
+margin-bottom: 0;
+}
+.ModuleRegistrarseContainer .PMd{
+    color: black;
+}
+.ModuleRegistrarseContainer label{
+    color:black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.input-user-container {
+    width: 340px;
+    height: 32px;
+    flex-shrink: 0;
+    background-color: var(--ColorBackgroundInput);
+    border: 1px solid var(--ColorBtnBorder);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    margin: 4px;
+  }
+  
+  .input-user-container input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color:black;
+  }
+  
+  .input-user-container:hover {
+    border: 1px solid var(--ColorBtnBorderHover);
+    transition: var(--Transitionms);
+  }
+  .input-user-container:hover svg path {
+    stroke: var(--ColorBtnBorderHover);
+    transition: var(--Transitionms);
+  }
+  
+  .input-user-container svg {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+  }
+  .ModuleRegistrarseContainer .btnContainer{
+    margin: 20px;
+  }
+  .ModuleRegistrarseContainer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ModuleRegistrarseContainer input[type="date"]{
+    width: 340px;
+    height: 32px;
+    background-color: var(--ColorBackgroundInput);
+    border: 1px solid var(--ColorBtnBorder);
+    border-radius: 4px;
+    color:black;
+    padding: 4px;
+    margin: 4px;
+  }
+
+.ModuleRegistrarseContainer input[type="date"]::-webkit-calendar-picker-indicator {
+    color: blue;
+}

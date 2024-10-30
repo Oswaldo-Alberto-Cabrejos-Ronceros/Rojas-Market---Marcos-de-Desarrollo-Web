@@ -1,0 +1,26 @@
+.ModuleHomeContainer{
+    width: 100%;
+    height: auto;
+    background-color: var(--BackgroundColor);
+    display: flex;
+    flex-direction: column;
+}
+.listaproductos{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: var(--BackgroundColor);
+    display: flex;
+}
+
+.ModuleHomeContainer h2{
+    color: var(--ColorLabelBlack);
+    padding: 0;
+    margin: 0;
+    background-color: var(--BackgroundColor);
+}
+
+.ModuleHomeContainer h3{
+    color: var(--ColorLabelBlack);
+    align-self: flex-start;
+    margin-left: 4%;
+}

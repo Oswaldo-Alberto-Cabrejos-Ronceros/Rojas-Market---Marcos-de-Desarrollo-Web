@@ -1,0 +1,40 @@
+:root{
+    --ColorItems:#FEF2F2;
+  }
+
+.NavUserContainer{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--ColorItems);
+    padding: 10px;
+    box-sizing: border-box;
+    color:#FEF2F2;
+}
+.NavUserContainer:hover{
+    background-color: rgb(231, 36, 36);
+    cursor: pointer;
+}
+.NavUserContainer .PMd:hover{
+    cursor: pointer;
+}
+
+.ImgUser{
+    height: 75%;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.ImgUser:hover{
+    border-radius: 75%;
+    border: 2px solid var(--ColorItems);
+    transition: 150ms;
+}
+.NavUserContainer .PMd{
+    align-self: center;
+    margin: 0;
+}

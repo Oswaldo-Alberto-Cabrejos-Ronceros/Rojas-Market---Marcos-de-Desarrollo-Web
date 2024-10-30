@@ -1,0 +1,36 @@
+.CardInfoCarritoContainer{
+    background-color: var(--ColorWhiteBackgroundSecondary);
+    color: var(--ColorLabelBlack);
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.CardInfoCarritoContainer .PLg{
+    margin: 0;
+    align-self: flex-start;
+}
+
+
+.CardInfoCarritoContainer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.CardInfoCarritoContainer li{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.CardInfoCarritoContainer .CardInfoCarritoButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}

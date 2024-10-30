@@ -1,0 +1,37 @@
+.InputBusquedaBarNavContainer{
+    width: 30%;
+    height: 50%;
+    background-color: var(--BackgroundColor);
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.InputBusquedaBarNavContainer input {
+    background:none;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid black;
+    width: auto;
+    height: auto;
+    outline:none;
+    color:black;
+}
+.InputBusquedaBarNavContainer select{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background:none;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    
+}
+
+

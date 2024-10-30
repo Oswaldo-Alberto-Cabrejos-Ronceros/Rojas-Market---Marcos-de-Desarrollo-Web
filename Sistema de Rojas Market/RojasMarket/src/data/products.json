@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "brand": "CIF",
+        "name": "CIF CREMA ORIGINAL FRASCO 375G",
+        "price": 7.0,
+        "image": "/assets/img-products/CIF CREMA ORIGINAL FRASCO 375G.jpg"
+    },
+
+    {
+        "id": 2,
+        "brand": "CIELO",
+        "name": "Agua Cielo sin gas 2.5 lt",
+        "price": 3.0,
+        "image": "/assets/img-products/agua2.5-cielo.jpg"
+    },
+
+    {
+        "id": 3,
+        "brand": "CIELO",
+        "name": "Agua Cielo con Chupon 1 lt",
+        "price": 2.4,
+        "image": "/assets/img-products/aguachupon-cielo.jpg"
+    },
+
+    {
+        "id": 4,
+        "brand": "CIELO",
+        "name": "Agua Cielo Caja 20 lt",
+        "price": 24.8,
+        "image": "/assets/img-products/aguacaja-cielo.jpg"
+    },
+
+    {
+        "id": 5,
+        "brand": "CIELO",
+        "name": "Agua Cielo Bidón 7 lt",
+        "price": 7.9,
+        "image": "/assets/img-products/aguabidon-cielo.jpg"
+    },
+
+    {
+        "id": 6,
+        "brand": "CIELO",
+        "name": "Agua Cielo Alcalina 625 ml",
+        "price": 1.9,
+        "image": "/assets/img-products/aguaalcalina-cielo.jpg"
+    },
+    {
+        "id": 7,
+        "brand": "CIF",
+        "name": "CIF CREMA LIMON 750ML",
+        "price": 13.5,
+        "image": "/assets/img-products/cif-crema-limon-750ml-jpg.jpg"
+    },
+
+    {
+        "id": 8,
+        "brand": "CIF",
+        "name": "CIF CREMA ORIGINAL FRASCO 375G",
+        "price": 7.0,
+        "image": "/assets/img-products/CIF CREMA ORIGINAL FRASCO 375G.jpg"
+    },
+
+    {
+        "id": 9,
+        "brand": "CLOROX",
+        "name": "CLOROX LEJIA TRADICIONAL 4KG",
+        "price": 13.9,
+        "image": "/assets/img-products/CLOROX LEJIA TRADICIONAL 4KG.jpg"
+    },
+
+    {
+        "id": 10,
+        "brand": "CLOROX",
+        "name": "CLOROX LEJIA TRADICIONAL 680G",
+        "price": 2.3,
+        "image": "/assets/img-products/CLOROX LEJIA TRADICIONAL 680G.jpg"
+    },
+
+    {
+        "id": 11,
+        "brand": "POETT",
+        "name": "POETT LIMPIADOR LAVANDA 750ML",
+        "price": 7.9,
+        "image": "/assets/img-products/POETT LIMPIADOR LAVANDA 750ML.jpg"
+    },
+
+    {
+        "id": 12,
+        "brand": "SAPOLIO",
+        "name": "SAPOLIO DESINFECTANTE PINO NATURAL 900ML",
+        "price": 1.9,
+        "image": "/assets/img-products/SAPOLIO DESINFECTANTE PINO NATURAL 900ML.jpg"
+    }
+]
+  

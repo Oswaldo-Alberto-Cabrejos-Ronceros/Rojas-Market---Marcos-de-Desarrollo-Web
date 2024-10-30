@@ -1,0 +1,68 @@
+.ModuleCarritoContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--BackgroundColor);
+}
+
+.ModuleCarritoContainer .ModuleCarritoTitleContainer {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.ModuleCarritoContainer .ModuleCarritoTitleContainer h3 {
+  color: var(--ColorLabelBlack);
+  margin: 0;
+}
+
+.ModuleCarritoContainer .ModuleCarritoCardContent{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+.ModuleCarritoContainer .ModuleCarritoCardContainer {
+  width: 60%;
+  height: auto;
+  padding: 0;
+  padding-left: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ModuleCarritoInfoContainer{
+  width: 38%;
+  height: auto;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+@media (max-width: 920px) {
+  .ModuleCarritoContainer .ModuleCarritoCardContainer{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ModuleCarritoContainer .ModuleCarritoCardContent{
+      flex-direction: column;
+  }
+
+  .ModuleCarritoContainer .ModuleCarritoInfoContainer{
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+    }
+    

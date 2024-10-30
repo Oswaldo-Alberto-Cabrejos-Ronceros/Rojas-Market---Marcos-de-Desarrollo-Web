@@ -1,0 +1,86 @@
+/* Estilo principal de la barra lateral */
+.sidebar {
+  width: calc(100% - 48px);
+  padding: 20px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Estilo del botón de Filtrar */
+.sidebar .filtro {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #c0c0c0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+/* Ocultar filtros en pantallas pequeñas y mostrar solo el botón "Filtrar" */
+@media (max-width: 767px) {
+  .sidebar .filters-container {
+    display: none;
+  }
+}
+
+/* Estilos para la barra lateral móvil */
+.sidebar-responsive {
+  display: none; /* Oculto por defecto */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1001;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Mostrar la barra lateral móvil en pantallas pequeñas cuando está abierta */
+@media (max-width: 767px) {
+  .sidebar-responsive {
+    display: block;
+  }
+}
+
+/* Estilos de los labels */
+.sidebar label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilos de los selectores */
+#filtro-marca,
+#filtro-precio {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Botones de acción para la barra lateral móvil */
+.filter-buttons {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: calc(100% - 20px);
+}

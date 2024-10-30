@@ -1,0 +1,17 @@
+.button {
+    background-color: #ff0000; /* Rojo */
+    color: #ffffff; /* Letras blancas */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer;
+    text-align: center; /* Centrando el texto */
+    font-size: 16px;
+    display: block;
+    margin: 0 auto; /* Centrando el botón en el contenedor */
+  }
+  
+  .button:hover {
+    background-color: #cc0000; /* Un tono más oscuro al pasar el cursor */
+  }
+  

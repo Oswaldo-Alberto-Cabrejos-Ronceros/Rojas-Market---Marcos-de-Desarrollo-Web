@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  --BackgroundColor:#f5f5f5;
+  --H1size:56px;
+  --H2size:40px;
+  --H3size:28px;
+  --PLgsize:22px;
+  --PMdsize:16px;
+  --PSmsize:14px;
+  --ColorRedPrimary:#DC2626;
+  --ColorWhiteBackgroundSecondary: #F9FAFB;
+  --ColorLabelBlack: #171717;
+  --ColorRedSecondary: #EF4444;
+  
+}
+
+body{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: block;
+  background-color:var(--BackgroundColor) ;
+}
+html, body {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  background-color:var(--BackgroundColor) ;
+}
+
+html input{
+  color: var(--ColorLabelBlack); 
+  background-color: var(--ColorWhiteBackgroundSecondary); 
+}
+
+h1{
+  font-size: var(--H1size);
+}
+
+h2{
+  font-size: var(--H2size);
+}
+
+h3{
+  font-size: var(--H3size);
+}
+
+.PLg{
+  font-size: var(--PLgsize);
+}
+
+.PMd{
+  font-size: var(--PMdsize);
+}
+
+.PSm{
+  font-size: var(--PSmsize);
+}
+h1,h2,h3,p{
+  cursor: default;
+}
+
+#root {
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  background-color: var(--BackgroundColor);
+  box-sizing: border-box;
+  height: auto;
+  
+}
+
+.main{
+  width: 100%;
+  height: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  background-color:var(--BackgroundColor) ;
+}
+
+.containerCamb{
+  padding: 0;
+  width: 100%;
+  height: auto;
+  min-height: 90vh;
+  background-color: var(--BackgroundColorb);
+  box-sizing: border-box;
+  flex: 1;
+  position: absolute; 
+  top: 10vh;
+}
